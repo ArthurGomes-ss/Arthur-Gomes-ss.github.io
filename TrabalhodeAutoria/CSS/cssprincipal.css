@@ -1,0 +1,71 @@
+/* seletor body, que indica como o site vai ser mostrado ao usuário */
+body { 
+    background-image: url(../Imagens/gamedois.jpg); /* imagem que vai ser definida como fundo do site */
+    background-repeat:no-repeat; /* a imagem de fundo ficará fixa, sem se repetir */
+    height: 1000px; /* altura da imagem de fundo para que ela ocupe todo o espaço de visão do monitor */
+    width: 1000px; /* largura da imagem de fundo para que ela ocupe todo o espaço de visão do monitor */
+    background-size: cover; /* define que a imagem deverá cobrir todo o espaço de fundo, mesmo que seja preciso cortar ou esticar a imagem */
+    background-position: center; /* posiciona minha imagem centralizada no fundo do site */
+    color: white; /* define que todas as palavras visíveis no meu site terâo a cor branca */
+    font-size: larger; /* tamanho grande das letras visívei no site */
+}
+
+/* seletor a, indica o estilo das tags de link (que levarão a outas páginas do site) da página principal do meu site*/
+a {
+    color: deepskyblue; /* cor das letras dos links */
+    font-family: 'Times New Roman', Times, serif; /* indica a fonte das letras dos links (Times New Roman) */
+    font-weight: bold; /* deixa os links em negrito */
+    float: left; /* os links ficarão flutuados à esquerda */
+    text-decoration: none; /* indica que meus links não vão ficar com nenhum tipo de decoração como de costume */
+    margin: 60px; /* espaçamento externo dos links */
+    font-size: 30px; /* tamanho das letras de 30px dos links */
+    text-align: start; /* links alinhados no início da página principal */
+}
+
+/* seletor h1, indica o título de maior importância da página principal do site */
+h1 {
+    font-family:'Courier New', Courier, monospace; /* indica a fonte das letras do título (Courier New) */
+    text-align:center; /* alinhamento do título ao centro */
+    margin-left: 350px; /* espaçamento externo esquerdo de 350px */
+    margin-right: 350px; /* espaçamento externo direito de 350px */
+    margin-bottom: 50px; /* espaçamento externo inferior de 350px */
+    font-size: 50px; /* tamanho das letras de 50px do título */
+}
+
+/* seletor de classe do link gupy, indicando o estilo que ele deverá ter */
+.gupy {
+    border-bottom: none; /* borda nula para o link */
+    width: 110px; /* largura do tamanho da imagem do link de 110px */
+    height: 90px; /* altura do tamanho da imagem do link de 110px */
+    margin-left: -330px; /* espaçamento externo esquerdo de -330px */
+    margin-top: 255px; /* espaçamento externo superior de 255px */
+    float: left; /* o link ficará flutuando à esquerda */
+}
+
+/* seletor de classe do link duolingo, indicando o estilo que ele deverá ter */
+.duolingo {
+    border-bottom: none; /* borda nula para o link */
+    width: 110px; /* largura do tamanho da imagem do link de 110px */
+    height: 90px; /* altura do tamanho da imagem do link de 90px */
+    margin-left: 100px; /* espaçamento externo esquerdo de 100px */
+    margin-top: -210px; /* espaçamento externo superior de -210px */
+    float: left; /* o link ficará flutuando à esquerda */
+}
+
+/* seletor p, indica o estilo da tag de parágrafo*/
+p {
+    font-family:'Courier New', Courier, monospace; /* indica a fonte das letras do parágrafo (Courier New) */
+    text-align:unset; /* alinhamento do parágrafo */
+    margin-left: 200px; /* espaçamento externo esquerdo de 200px */
+    margin-right: 200px; /* espaçamento externo direito de 200px */
+    margin-top: 300px; /* espaçamento externo superior de 300px */
+    margin-bottom: 25px; /* espaçamento externo inferior de 25px */
+    font-size: 25px; /* tamanho das letras de 25px do parágrafo */
+    font-weight: bold; /* deixa todo o parágrafo em negrito */
+}
+
+/* seletor span, indica o estilo diferente a uma parte específica da tag de parágrafo*/
+span {
+    font-style: italic; /* texto em itálico */
+    color: aquamarine; /* cor do texto da tag span */
+}

@@ -1,0 +1,45 @@
+/* seletor body, que indica como o site vai ser mostrado ao usuário */
+body {
+    background-image: url(../Imagens/gameimg.jpg); /* imagem que vai ser definida como fundo do site */
+    background-repeat:no-repeat; /* a imagem de fundo ficará fixa, sem se repetir */
+    background-size: cover; /* define que a imagem deverá cobrir todo o espaço de fundo, mesmo que seja preciso cortar ou esticar a imagem */
+    background-position: center; /* posiciona minha imagem centralizada no fundo do site */
+    color: white; /* define que todas as palavras visíveis no meu site terâo a cor branca */
+    font-size:large; /* tamanho grande das letras visívei no site */
+}
+
+/* seletor h1, indica o título de maior importância da página principal do site */
+h1 {
+    font-size: 50px; /* tamanho das letras de 50px do título */
+    font-family:'Courier New', Courier, monospace; /* indica a fonte das letras do título (Courier New) */
+    margin-left: 20px; /* espaçamento externo esquerdo de 20px */
+}
+
+/* seletor h1, indica o título de segunda maior importância da página principal do site */
+h2 {
+    font-size: 30px; /* tamanho das letras de 30px do título */
+    font-family: 'Courier New', Courier, monospace; /* indica a fonte das letras do título (Courier New) */
+    margin-left: 20px; /* espaçamento externo esquerdo de 20px */
+}
+
+/* seletor h1, indica o título de terceira maior importância da página principal do site */
+h3 {
+    font-size: 25px; /* tamanho das letras de 25px do título */
+    font-family: 'Courier New', Courier, monospace; /* indica a fonte das letras do título (Courier New) */
+    margin-left: 20px;  /* espaçamento externo esquerdo de 20px */
+}
+
+/* seletor p, indica o estilo da tag de parágrafo*/
+p {
+    text-align:justify; /* alinhamento justificado do parágrafo */
+    margin-left: 20px; /* espaçamento externo esquerdo de 20px */
+    font-size: 23px; /* tamanho das letras de 23px do parágrafo */
+    font-family:'Times New Roman', Times, serif; /* indica a fonte das letras do parágrafo (Times New Roman) */
+}
+
+/* seletor ul, indica o estilo da tag de lista (usei como tópicos)*/
+ul {
+    font-style: italic; /* texto em itálico */
+    font-size: 23px; /* tamanho das letras de 23px */
+    font-family: 'Times New Roman', Times, serif; /* indica a fonte das letras do texto (Times New Roman) */
+}
